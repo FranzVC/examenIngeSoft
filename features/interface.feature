@@ -10,4 +10,5 @@ Scenario: Ingresar a la pagina
 Scenario: Ver saldo actual
     Given ingreso a la pagina de inicio
     And Ingreso "2" en el campo "saldo"
+    And hago click en el boton "monto"
     Then Deberia mostrarme un mensaje "saldo actual: 2"
